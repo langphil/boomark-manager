@@ -33,16 +33,22 @@
 		"oAP": "\/app\/bookmark.rb",
 		"oF": 0
 		},
-	"\/app\/views\/index.erb": {
+	"\/app\/models\/link.rb": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/views\/index.erb",
+		"oAP": "\/app\/models\/link.rb",
 		"oF": 0
 		},
 	"\/app\/views\/layout.erb": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/app\/views\/layout.erb",
+		"oF": 0
+		},
+	"\/app\/views\/links\/index.erb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/views\/links\/index.erb",
 		"oF": 0
 		},
 	"\/app\/views\/style.scss": {
@@ -148,6 +154,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/spec\/css_spec.rb",
+		"oF": 0
+		},
+	"\/spec\/features\/viewing_links_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/spec\/features\/viewing_links_spec.rb",
 		"oF": 0
 		},
 	"\/spec\/features\/web_helpers.rb": {

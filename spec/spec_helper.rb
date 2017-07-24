@@ -2,6 +2,8 @@ require 'capybara/rspec'
 require 'simplecov'
 require 'simplecov-console'
 require 'features/web_helpers'
+require './app/models/link'
+require './app/bookmark'
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,
