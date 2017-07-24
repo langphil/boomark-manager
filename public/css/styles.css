@@ -1,0 +1,22 @@
+/* CSS
+
+1. Main
+
+/* Variables */
+/* 1. Main */
+body {
+  background: #E1E1E1;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #000000; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */ }
+  .container .box {
+    align-self: center;
+    margin: auto;
+    align-content: center;
+    text-align: center; }
