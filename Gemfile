@@ -4,6 +4,7 @@ ruby '2.4.1'
 
 gem 'rake'
 gem 'sinatra'
+gem 'database_cleaner'
 gem 'data_mapper', '1.2.0'
 gem 'dm-postgres-adapter'
 
