@@ -11,6 +11,24 @@
         null,
         null
       ],
+      "/Users/Gnalp/Documents/makers-academy/Projects/boomark-manager/spec/features/creating_links_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/Gnalp/Documents/makers-academy/Projects/boomark-manager/spec/features/viewing_links_spec.rb": [
         1,
         null,
@@ -28,6 +46,6 @@
         null
       ]
     },
-    "timestamp": 1500922396
+    "timestamp": 1501006854
   }
 }
