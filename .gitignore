@@ -1,5 +1,4 @@
 .DS_Store
-Gemfile.lock
 node_modules
 /.sass-cache
 .sass-cache
