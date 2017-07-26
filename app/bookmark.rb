@@ -16,8 +16,7 @@ class BOOKMARK < Sinatra::Base
 
   post '/links' do
     link = Link.new(url: params[:url], title: params[:title])
-    p params[:tags]
-    tag  = Tag.first_or_create(name: params[:tags])
+    tag = Tag.first_or_create(name: params[:tags])
     link.tags << tag
     link.save
     redirect '/links'

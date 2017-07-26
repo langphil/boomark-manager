@@ -7,6 +7,7 @@ feature 'Adding tags' do
     fill_in 'tags',  with: 'education'
 
     click_button 'Submit'
+    
     link = Link.first
     expect(link.tags.map(&:name)).to include('education')
   end
