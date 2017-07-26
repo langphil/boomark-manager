@@ -10,12 +10,6 @@ feature 'Creating links' do
     end
   end
 
-  scenario 'adding url' do
-    within 'ul#links' do
-      expect(page).to have_content('http://makersacademy.com')
-    end
-  end
-
   scenario 'adding tag' do
     link = Link.first
     expect(link.tags.map(&:name)).to include('education')
