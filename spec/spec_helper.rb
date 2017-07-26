@@ -3,6 +3,7 @@ require 'capybara/rspec'
 require 'database_cleaner'
 require 'simplecov'
 require 'simplecov-console'
+require_relative './features/web_helpers'
 require File.join(File.dirname(__FILE__), '..', './app/bookmark.rb')
 # require './app/models/link'
 

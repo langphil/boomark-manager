@@ -1,11 +1,7 @@
 feature 'Creating links' do
 
   before do
-    visit '/links/new'
-    fill_in 'title', with: 'Makers Academy'
-    fill_in 'url', with: 'http://makersacademy.com'
-    fill_in 'tags', with: 'education'
-    click_button 'Submit'
+    link_save
   end
 
   scenario 'adding title' do
@@ -20,7 +16,7 @@ feature 'Creating links' do
     end
   end
 
-  scenario 'adding url' do
+  scenario 'adding tag' do
     link = Link.first
     expect(link.tags.map(&:name)).to include('education')
   end
