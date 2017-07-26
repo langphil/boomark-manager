@@ -27,16 +27,40 @@
 		"oAP": "\/.sass-cache\/97c34a587d85a90a85679d7aa1c5dd03709f6a2b\/style.scssc",
 		"oF": 0
 		},
+	"\/.sass-cache\/9975d0d816f0dff6cdfd73ccd282c79d285cf142\/style.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.sass-cache\/9975d0d816f0dff6cdfd73ccd282c79d285cf142\/style.scssc",
+		"oF": 0
+		},
 	"\/app\/bookmark.rb": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/app\/bookmark.rb",
 		"oF": 0
 		},
+	"\/app\/data_mapper_setup.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/data_mapper_setup.rb",
+		"oF": 0
+		},
 	"\/app\/models\/link.rb": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/app\/models\/link.rb",
+		"oF": 0
+		},
+	"\/app\/models\/tag.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/models\/tag.rb",
+		"oF": 0
+		},
+	"\/app\/models\/user.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/models\/user.rb",
 		"oF": 0
 		},
 	"\/app\/views\/layout.erb": {
@@ -51,6 +75,12 @@
 		"oAP": "\/app\/views\/links\/index.erb",
 		"oF": 0
 		},
+	"\/app\/views\/links\/new.erb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/views\/links\/new.erb",
+		"oF": 0
+		},
 	"\/app\/views\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -63,6 +93,12 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/app\/views\/users\/new.erb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/views\/users\/new.erb",
+		"oF": 0
 		},
 	"\/config.ru": {
 		"ft": 8192,
@@ -154,6 +190,30 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/spec\/css_spec.rb",
+		"oF": 0
+		},
+	"\/spec\/features\/adding_tags_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/spec\/features\/adding_tags_spec.rb",
+		"oF": 0
+		},
+	"\/spec\/features\/creating_links_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/spec\/features\/creating_links_spec.rb",
+		"oF": 0
+		},
+	"\/spec\/features\/tag_filter_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/spec\/features\/tag_filter_spec.rb",
+		"oF": 0
+		},
+	"\/spec\/features\/user_management_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/spec\/features\/user_management_spec.rb",
 		"oF": 0
 		},
 	"\/spec\/features\/viewing_links_spec.rb": {

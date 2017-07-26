@@ -11,3 +11,11 @@ def link_save
   fill_in 'tags', with: 'bubbles'
   click_button 'Submit'
 end
+
+def sign_up
+  visit '/users/new'
+  expect(page.status_code).to eq(200)
+  fill_in 'email', with: 'user@user.com'
+  fill_in 'password', with: 'p1ssword'
+  click_button 'Sign up'
+end

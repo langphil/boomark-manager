@@ -16,6 +16,7 @@ body {
   align-items: center;
   /* height: 100vh; */ }
   .container .box {
+    padding: 1em;
     align-self: center;
     margin: auto;
     align-content: center;
