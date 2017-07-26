@@ -5,8 +5,8 @@ require_relative 'data_mapper_setup'
 
 class BOOKMARK < Sinatra::Base
 
-  get '/' do
-    'Hello World'
+  get '/links/new' do
+    erb :'links/new'
   end
 
   get '/links' do
@@ -20,10 +20,6 @@ class BOOKMARK < Sinatra::Base
     link.tags << tag
     link.save
     redirect '/links'
-  end
-
-  get '/links/new' do
-    erb :'links/new'
   end
 
   get '/tags/:name' do
