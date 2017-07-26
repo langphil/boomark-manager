@@ -1,16 +1,27 @@
 feature 'Creating links' do
 
-  scenario 'I can create a new link' do
+  before do
     visit '/links/new'
-    fill_in 'url',   with: 'http://www.zombo.com/'
-    fill_in 'title', with: 'This is Zombocom'
-
+    fill_in 'title', with: 'Makers Academy'
+    fill_in 'url', with: 'http://makersacademy.com'
+    fill_in 'tags', with: 'education'
     click_button 'Submit'
+  end
 
-    expect(current_path).to eq '/links'
-
+  scenario 'adding title' do
     within 'ul#links' do
-      expect(page).to have_content('This is Zombocom')
+      expect(page).to have_content('Makers Academy')
     end
+  end
+
+  scenario 'adding url' do
+    within 'ul#links' do
+      expect(page).to have_content('http://makersacademy.com')
+    end
+  end
+
+  scenario 'adding url' do
+    link = Link.first
+    expect(link.tags.map(&:name)).to include('education')
   end
 end
