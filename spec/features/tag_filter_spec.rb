@@ -2,7 +2,7 @@ feature 'Filtering tags' do
 
   scenario 'I can filter specific tags' do
     link_save
-    visit '/tags/bubbles'
-    expect(page).to have_content('bubbles')
+    visit '/tags/education'
+    expect(page).to have_content('education')
   end
 end
