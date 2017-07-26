@@ -4,9 +4,9 @@ feature 'Creating links' do
     visit '/links/new'
     fill_in 'url',   with: 'http://www.zombo.com/'
     fill_in 'title', with: 'This is Zombocom'
-    click_button 'Create link'
 
-    # we expect to be redirected back to the links page
+    click_button 'Submit'
+
     expect(current_path).to eq '/links'
 
     within 'ul#links' do

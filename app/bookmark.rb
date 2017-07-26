@@ -1,6 +1,7 @@
 ENV["RACK_ENV"] ||= "development"
+
 require 'sinatra/base'
-require_relative 'models/link'
+require_relative 'data_mapper_setup'
 
 class BOOKMARK < Sinatra::Base
 
@@ -14,7 +15,11 @@ class BOOKMARK < Sinatra::Base
   end
 
   post '/links' do
-    Link.create(url: params[:url], title: params[:title])
+    link = Link.new(url: params[:url], title: params[:title])
+    p params[:tags]
+    tag  = Tag.first_or_create(name: params[:tags])
+    link.tags << tag
+    link.save
     redirect '/links'
   end
 
@@ -26,5 +31,5 @@ class BOOKMARK < Sinatra::Base
     scss :style
   end
 
-  run! if app_file == $0
+  run! if app_file == $PROGRAM_NAME
 end

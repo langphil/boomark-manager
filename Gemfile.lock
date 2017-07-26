@@ -82,7 +82,7 @@ GEM
     mustermann (1.0.0)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
-    parallel (1.11.2)
+    parallel (1.12.0)
     parser (2.4.0.0)
       ast (~> 2.2)
     powerpack (0.1.1)
@@ -161,7 +161,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
-  data_mapper (= 1.2.0)
+  data_mapper
   database_cleaner
   dm-postgres-adapter
   rake
