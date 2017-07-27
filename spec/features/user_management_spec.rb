@@ -8,7 +8,7 @@ feature 'new user' do
 
   scenario 'user cant register if confirmation password doesnt match' do
     expect { sign_up_fail }.not_to change(User, :count)
-    expect(current_path).to eq '/links'
+    expect(current_path).to eq '/users'
     expect(page).not_to have_content 'Welcome, user@user.com'
   end
 end
